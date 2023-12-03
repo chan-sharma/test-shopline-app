@@ -1,0 +1,11 @@
+{
+  "name": "project-24",
+  "version": "1.0.0",
+  "description": "It is a test project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandan Sharma",
+  "license": "ISC"
+}

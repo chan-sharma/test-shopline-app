@@ -49,7 +49,7 @@ const data = {
         variant_id: '18062327822065753213471560',
       },
     ],
-    name: '1004',
+    name: '1005',
     note: 'Notes',
     note_attributes: [
       {

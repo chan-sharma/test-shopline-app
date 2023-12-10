@@ -36,7 +36,7 @@ exports.createOrder = async (req, res) => {
     res.status(201).json({
       status: 'created',
       //results: products.length,
-      data: { order: responseOrder.data },
+      data: responseOrder.data,
     });
   } catch (err) {
     res.status(400).json({ status: 'fail', message: err });
@@ -53,11 +53,11 @@ exports.getOrder = async (req, res) => {
 
     const responseOrder = await createOrder;
     const response = responseOrder.data;
-    console.log(response);
+    //console.log(response.orders.length);
     res.status(200).json({
       status: 'Ok',
-      //results: products.length,
-      data: { order: response },
+      results: response.orders.length,
+      data: { order: response.orders },
     });
   } catch (err) {
     res.status(400).json({ status: 'fail', message: err });

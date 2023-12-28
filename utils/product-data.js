@@ -2,9 +2,11 @@ const app = require('../app.js');
 //onst request = req.body
 class ProductCreate {
   constructor(req) {
-    this.name = req.body.name;
-    this.price = req.body.price;
-    this.description = req.body.description;
+    this.name = req.name;
+    this.price = req.price;
+    this.description = req.description;
   }
 }
+
 module.exports = ProductCreate;
+7;

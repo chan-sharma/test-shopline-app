@@ -1,0 +1,108 @@
+{
+  "order": {
+    "billing_address": {
+      "zip": "2422",
+      "country": "Australia",
+      "address2": "",
+      "city": "Copeland",
+      "address1": "Testorellis Road Copeland",
+      "last_name": "Sharma",
+      "province_code": "1500002",
+      "country_code": "AU",
+      "province": "New South Wales",
+      "phone": "04000000",
+      "name": "Chandan Sharma",
+      "company": "",
+      "first_name": "Chandan"
+    },
+    "buyer_note": "message",
+    "currency": "AUD",
+    "customer": {
+      "area_code": "+61",
+      "email": "chndan.shr@GMAIL.COM",
+      "first_name": "Chandan",
+      "id": "2016953793",
+      "last_name": "Sharma",
+      "phone": "401169995"
+    },
+    "financial_status": "paid",
+    "fulfillment_status": "shipped",
+    "inventory_behaviour": "bypass",
+    "line_items": [
+      {
+        "discount_price": {
+          "amount": "1.00",
+          "title": "Discount name"
+        },
+        "location_id": "6179010839426396568",
+        "price": "25",
+        "product_id": "16062327822062565542321560",
+        "quantity": 1,
+        "requires_shipping": true,
+        "tax_line": {
+          "price": "25",
+          "rate": "0.00",
+          "title": "Tax name"
+        },
+        "taxable": false,
+        "title": "Sample Git Card",
+        "variant_id": "18062327822065753213471560"
+      }
+    ],
+    "name": "1005",
+    "note": "Notes",
+    "note_attributes": [
+      {
+        "name": "Note source",
+        "value": "Notes"
+      }
+    ],
+    "order_note": "Notes",
+    "price_info": {
+      "current_extra_total_discounts": "0.00",
+      "taxes_included": false,
+      "total_shipping_price": "0.00"
+    },
+    "processed_at": "2023-04-12T22:59:52+08:00",
+    "send_fulfillment_receipt": true,
+    "send_receipt": true,
+    "shipping_address": {
+      "address1": "Nancun Wanbo, Panyu District, Guangzhou City, Guangdong Province",
+      "address2": "Xiaoguwei Street, Panyu District, Guangzhou City, Guangdong Province",
+      "area": "Panyu District",
+      "area_code": "510006",
+      "city": "Guangzhou City",
+      "city_code": "510000",
+      "company": "Company Name",
+      "country": "China",
+      "country_code": "CHN",
+      "email": "test001@Gmail.com",
+      "first_name": "Tom",
+      "last_name": "Washington",
+      "latitude": "43",
+      "longitude": "34",
+      "phone": "13903004000",
+      "province": "Guangdong Province",
+      "province_code": "4220006",
+      "zip": "510036"
+    },
+    "shipping_line": {
+      "code": "SF",
+      "price": "3.25",
+      "tax_line": {
+        "price": "100",
+        "rate": "0.02",
+        "title": "Tax name"
+      },
+      "title": "Shipping name"
+    },
+    "transaction_list": [
+      {
+        "amount": "3.25",
+        "gateways": "PayPal",
+        "processed_at": "2023-04-12T22:59:52+08:00",
+        "status": "success"
+      }
+    ]
+  }
+}
